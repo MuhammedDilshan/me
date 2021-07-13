@@ -242,7 +242,7 @@ footer ul li a i {}
 }
 @media all and (max-width:480px){
     #home section.spotlight div.text {
-        margin-top: 35%;
+        margin-top: 30%;
     }
     #home section.spotlight div.text h1 {
         font-size: 30px;
@@ -321,9 +321,3 @@ footer ul li a i {}
         font-size: 10px;
     }
 }
-
-
-
-
-
-
