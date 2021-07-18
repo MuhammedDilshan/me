@@ -184,7 +184,6 @@ body{
 #intrest ul li {
     color: #eae328;
     font-size: 47px;
-    margin-right: 32px;
     width: 30%;
     margin-bottom: 50px;
 }
@@ -231,6 +230,16 @@ footer ul li a:hover {
     color: #171717 ;
 }
 footer ul li a i {}
+@media all and (max-width:1280px){
+    #intrest ul li{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:980px){
+    #intrest ul li{
+        font-size: 18px;
+    }
+}
 
 @media all and (max-width:780px){
     #about div.bottom p {
@@ -238,6 +247,17 @@ footer ul li a i {}
     }
     #home section.spotlight div.text{
         margin-top: 20%;
+    }
+    #intrest ul li{
+        font-size: 24px;
+    }
+    #intrest ul li span{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:640px){
+    #intrest ul li span{
+        font-size: 12px;
     }
 }
 @media all and (max-width:480px){
@@ -263,6 +283,14 @@ footer ul li a i {}
     #intrest ul li:nth-child(2n){
         margin-right: 0;
     }
+    #intrest ul li{
+        font-size: 18px;
+        margin: 10px;
+    }
+    #intrest ul li span{
+        font-size: 12px;
+    }
+    
    
 }
 @media all and (max-width:360px) {
@@ -289,11 +317,17 @@ footer ul li a i {}
         font-size: 30px;
         display: grid;
     }
-    #intrest ul li:nth-child(2n){
-        margin-right:35px;
-    }
     footer ul li a{
         font-size: 10px;
+    }
+    #intrest ul li{
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    #intrest ul li span{
+        font-size: 12px;
     }
 }
 @media all and (max-width:320px) {
