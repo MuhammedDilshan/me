@@ -107,7 +107,20 @@ body{
     margin-top: 10px;
     font-family: 'poppinslight';
     letter-spacing: 5px;
+    overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+    animation: typing 5.5s steps(40, end) infinite,blink-caret .75s step-end infinite ;
 }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
 #home section.spotlight div.text img{
     width: 20%;
     height: 5%;
@@ -194,6 +207,10 @@ body{
     display: block;
     margin-bottom: 20px;
 }
+#intrest ul li i:hover{
+    transform: scale(1.2);
+    animation: 1s ease-in-out ;
+}
 #intrest ul li span {
     font-size: 16px;
 }
@@ -262,7 +279,7 @@ footer ul li a i {}
 }
 @media all and (max-width:480px){
     #home section.spotlight div.text {
-        margin-top: 30%;
+        margin-top: 40%;
     }
     #home section.spotlight div.text h1 {
         font-size: 30px;
@@ -301,7 +318,7 @@ footer ul li a i {}
         font-size: 16px;
     }
     #home section.spotlight div.text {
-        margin-top: 45%;
+        margin-top: 50%;
     }
     /* #about section.content div.right ul li span{
         display: none;
