@@ -276,8 +276,16 @@ footer ul li a i {}
     #intrest ul li span{
         font-size: 12px;
     }
+    #home {
+        background-image: none;
+        background-color: #393d3e;
+    }
 }
 @media all and (max-width:480px){
+    #home {
+        background-image: none;
+        background-color: #393d3e;
+    }
     #home section.spotlight div.text {
         margin-top: 40%;
     }
