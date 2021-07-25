@@ -319,6 +319,10 @@ footer ul li a i {}
    
 }
 @media all and (max-width:360px) {
+    #home {
+        background-image: none;
+        background-color: #393d3e;
+    }
     #home section.spotlight div.text h1 {
         font-size: 26px;
     }
@@ -356,8 +360,12 @@ footer ul li a i {}
     }
 }
 @media all and (max-width:320px) {
+    #home {
+        background-image: none;
+        background-color: #393d3e;
+    }
     #home section.spotlight div.text{
-        margin-top: 45%;
+        margin-top: 55%;
     }
     #about section.content div.left img{
         width: 70px;
