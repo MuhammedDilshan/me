@@ -82,25 +82,25 @@ body{
 #home header img{
     width: 100px;
 }
-#home section.spotlight{
+#home .spotlight{
     align-items: center;
     display: flex;
     justify-content: center;
 }
-#home section.spotlight div.text{
+#home .spotlight .text{
     text-align: center;
     color: #fff;
     font-family: 'poppinssemibold';
     padding: 50px ;
     margin-top: 10%;
 }
-#home section.spotlight div.text h1{
+#home .spotlight .text h1{
     font-size: 43px;
     letter-spacing: 3px;
     color: #fff;
     margin-top: 30px;
 }
-#home section.spotlight div.text h1 span{
+#home .spotlight .text h1 span{
     font-size: 22px;
     font-weight: 700;
     display: block;
@@ -116,12 +116,11 @@ body{
     from { width: 0 }
     to { width: 100% }
   }
-}
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
-#home section.spotlight div.text img{
+#home .spotlight .text img{
     width: 20%;
     height: 5%;
     border-radius: 50%;
@@ -130,35 +129,35 @@ body{
     background-color: #171717;
     padding: 80px 40px;
 }
-#about section.content {
+#about .content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#about section.content div.left{
+#about .content .left{
     
 }
-#about section.content div.left img{
+#about .content .left img{
   width: 100px;
   margin-right: 40px;
   margin-bottom: 20px;
   border-radius: 20px;
 }
-#about section.content div.right {
+#about .content .right {
 }
-#about section.content div.right ul{
+#about .content .right ul{
     list-style: none;
 }
-#about section.content div.right ul li{
+#about .content .right ul li{
     margin-bottom: 20px;
     color: rgb(185, 185, 185);
     letter-spacing: 1px;
 }
-#about section.content div.right ul li a{
+#about .content .right ul li a{
     text-decoration: none;
     color: rgb(185, 185, 185);
 }
-#about div.bottom p{
+#about .bottom p{
     font-size: 16px;
     color: rgb(185, 185, 185);
     letter-spacing: 1px;
@@ -259,10 +258,10 @@ footer ul li a i {}
 }
 
 @media all and (max-width:780px){
-    #about div.bottom p {
+    #about .bottom p {
         width: 60%;
     }
-    #home section.spotlight div.text{
+    #home .spotlight .text{
         margin-top: 50%;
     }
     #intrest ul li{
@@ -286,22 +285,22 @@ footer ul li a i {}
         /* background-image: none; */
         /* background-color: #393d3e; */
     }
-    #home section.spotlight div.text {
+    #home .spotlight .text {
         margin-top: 42%;
     }
-    #home section.spotlight div.text h1 {
+    #home .spotlight .text h1 {
         font-size: 30px;
     }
-    #home section.spotlight div.text h1 span{
+    #home .spotlight .text h1 span{
         font-size: 16px;
     }
-    #about section.content div.right ul li{
+    #about .content .right ul li{
         font-size: 10px;
     }
-    /* #about section.content div.right ul li span{
+    /* #about .content .right ul li span{
         display: none;
     } */
-    #about div.bottom p{
+    #about .bottom p{
         width:90%;
         font-size: 10px;
     }
@@ -323,19 +322,19 @@ footer ul li a i {}
         /* background-image: none; */
         /* background-color: #393d3e; */
     }
-    #home section.spotlight div.text h1 {
+    #home .spotlight .text h1 {
         font-size: 26px;
     }
-    #home section.spotlight div.text h1 span{
+    #home .spotlight .text h1 span{
         font-size: 16px;
     }
-    #home section.spotlight div.text {
+    #home .spotlight .text {
         margin-top: 40%;
     }
-    /* #about section.content div.right ul li span{
+    /* #about .content .right ul li span{
         display: none;
     } */
-    #about section.content div.left img{
+    #about .content .left img{
         width: 80px;
     }
     #intrest h1 {
@@ -364,21 +363,21 @@ footer ul li a i {}
         /* background-image: none; */
         /* background-color: #393d3e; */
     }
-    #home section.spotlight div.text{
+    #home .spotlight .text{
         margin-top: 35%;
     }
-    #about section.content div.left img{
+    #about .content .left img{
         width: 70px;
         margin-right: 10px;
     }
-    #about section.content div.right ul li{
+    #about .content .right ul li{
         font-size: 8px;
     }
-    #about div.bottom p{
+    #about .bottom p{
         width: 90%;
         font-size: 8px;
     }
-    #about section.content div.right ul li span{
+    #about .content .right ul li span{
         display: none;
     } 
     #intrest ul li {
