@@ -207,8 +207,8 @@ body{
     margin-bottom: 20px;
 }
 #intrest ul li i:hover{
-    transform: scale(1.2);
-    animation: 1s ease-in-out ;
+    transform: rotateY(-180deg);
+    transition: .6s ease-in-out;
 }
 #intrest ul li span {
     font-size: 16px;
